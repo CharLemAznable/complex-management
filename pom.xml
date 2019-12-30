@@ -52,7 +52,7 @@
         <cglib-nodep.version>3.3.0</cglib-nodep.version>
         <commons-pool2.version>2.8.0</commons-pool2.version>
         <guava.version>28.1-jre</guava.version>
-        <slf4j-api.version>1.7.29</slf4j-api.version>
+        <slf4j-api.version>1.7.30</slf4j-api.version>
         <fastjson.version>1.2.62</fastjson.version>
         <complex-kits.version>0.11.1-SNAPSHOT</complex-kits.version>
         <varys-java-driver.version>0.8.1-SNAPSHOT</varys-java-driver.version>
@@ -71,7 +71,7 @@
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.1.0</jedis.version>
+        <jedis.version>3.2.0</jedis.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
