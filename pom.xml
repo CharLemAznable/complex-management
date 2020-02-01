@@ -67,6 +67,7 @@
 
         <junit-jupiter-engine.version>5.5.2</junit-jupiter-engine.version>
         <awaitility.version>4.0.2</awaitility.version>
+        <okhttp.version>3.14.6</okhttp.version>
 
         <eql.version>0.1.13</eql.version>
         <druid.version>1.1.21</druid.version>
@@ -184,6 +185,12 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>mockwebserver</artifactId>
+                <version>${okhttp.version}</version>
                 <scope>test</scope>
             </dependency>
 
