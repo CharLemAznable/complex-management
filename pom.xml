@@ -231,12 +231,6 @@
                 <version>${okhttp.version}</version>
                 <scope>test</scope>
             </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-junit5</artifactId>
-                <version>${vertx.version}</version>
-                <scope>test</scope>
-            </dependency>
 
             <dependency>
                 <groupId>com.github.bingoohuang</groupId>
@@ -309,6 +303,14 @@
                 <artifactId>spring-boot-autoconfigure</artifactId>
                 <version>${spring-boot.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-stack-depchain</artifactId>
+                <version>${vertx.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
