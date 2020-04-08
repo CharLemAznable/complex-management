@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-management</artifactId>
-    <version>0.1.3</version>
+    <version>0.1.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -75,12 +75,12 @@
         <fastjson.version>1.2.68</fastjson.version>
         <auto-service.version>1.0-rc6</auto-service.version>
         <guice.version>4.2.3</guice.version>
-        <complex-kits.version>0.11.3</complex-kits.version>
-        <varys-java-driver.version>0.8.3</varys-java-driver.version>
-        <qylogin-java-kits.version>0.7.3</qylogin-java-kits.version>
-        <amber-java-kits.version>0.6.3</amber-java-kits.version>
-        <guardians-core.version>0.5.3</guardians-core.version>
-        <guardians-general.version>0.6.3</guardians-general.version>
+        <complex-kits.version>0.11.4-SNAPSHOT</complex-kits.version>
+        <varys-java-driver.version>0.8.4-SNAPSHOT</varys-java-driver.version>
+        <qylogin-java-kits.version>0.7.4-SNAPSHOT</qylogin-java-kits.version>
+        <amber-java-kits.version>0.6.4-SNAPSHOT</amber-java-kits.version>
+        <guardians-core.version>0.5.4-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>0.6.4-SNAPSHOT</guardians-general.version>
 
         <lombok.version>1.18.12</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
