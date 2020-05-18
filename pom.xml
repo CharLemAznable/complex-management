@@ -73,7 +73,7 @@
         <guava.version>29.0-jre</guava.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <fastjson.version>1.2.68</fastjson.version>
-        <auto-service.version>1.0-rc6</auto-service.version>
+        <auto-service.version>1.0-rc7</auto-service.version>
         <guice.version>4.2.3</guice.version>
         <complex-kits.version>0.11.4-SNAPSHOT</complex-kits.version>
         <varys-java-driver.version>0.8.4-SNAPSHOT</varys-java-driver.version>
@@ -84,7 +84,7 @@
 
         <lombok.version>1.18.12</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <spring.version>5.2.5.RELEASE</spring.version>
+        <spring.version>5.2.6.RELEASE</spring.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
         <junit-jupiter.version>5.6.2</junit-jupiter.version>
@@ -98,13 +98,13 @@
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.2.0</jedis.version>
+        <jedis.version>3.3.0</jedis.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
-        <netty-all.version>4.1.48.Final</netty-all.version>
+        <spring-boot.version>2.2.7.RELEASE</spring-boot.version>
+        <netty-all.version>4.1.50.Final</netty-all.version>
 
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
