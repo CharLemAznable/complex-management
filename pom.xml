@@ -99,7 +99,6 @@
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
         <jedis.version>3.3.0</jedis.version>
-        <expiringmap.version>0.5.9</expiringmap.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
@@ -283,11 +282,6 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.jodah</groupId>
-                <artifactId>expiringmap</artifactId>
-                <version>${expiringmap.version}</version>
             </dependency>
 
             <dependency>
