@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-management</artifactId>
-    <version>0.1.4-SNAPSHOT</version>
+    <version>0.1.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -75,12 +75,12 @@
         <fastjson.version>1.2.70</fastjson.version>
         <auto-service.version>1.0-rc7</auto-service.version>
         <guice.version>4.2.3</guice.version>
-        <complex-kits.version>0.11.4-SNAPSHOT</complex-kits.version>
-        <varys-java-driver.version>0.8.4-SNAPSHOT</varys-java-driver.version>
-        <qylogin-java-kits.version>0.7.4-SNAPSHOT</qylogin-java-kits.version>
-        <amber-java-kits.version>0.6.4-SNAPSHOT</amber-java-kits.version>
-        <guardians-core.version>0.5.4-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>0.6.4-SNAPSHOT</guardians-general.version>
+        <complex-kits.version>0.11.5-SNAPSHOT</complex-kits.version>
+        <varys-java-driver.version>0.8.5-SNAPSHOT</varys-java-driver.version>
+        <qylogin-java-kits.version>0.7.5-SNAPSHOT</qylogin-java-kits.version>
+        <amber-java-kits.version>0.6.5-SNAPSHOT</amber-java-kits.version>
+        <guardians-core.version>0.5.5-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>0.6.5-SNAPSHOT</guardians-general.version>
 
         <lombok.version>1.18.12</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -406,6 +406,7 @@
                             <serverId>ossrh</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                            <stagingProgressTimeoutMinutes>10</stagingProgressTimeoutMinutes>
                         </configuration>
                     </plugin>
                 </plugins>
