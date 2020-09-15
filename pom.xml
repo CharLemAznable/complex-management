@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-management</artifactId>
-    <version>0.1.8-SNAPSHOT</version>
+    <version>0.1.9-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -75,12 +75,12 @@
         <fastjson.version>1.2.73</fastjson.version>
         <auto-service.version>1.0-rc7</auto-service.version>
         <guice.version>4.2.3</guice.version>
-        <complex-kits.version>0.11.8-SNAPSHOT</complex-kits.version>
-        <varys-java-driver.version>0.8.8-SNAPSHOT</varys-java-driver.version>
-        <qylogin-java-kits.version>0.7.8-SNAPSHOT</qylogin-java-kits.version>
-        <amber-java-kits.version>0.6.8-SNAPSHOT</amber-java-kits.version>
-        <guardians-core.version>0.5.8-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>0.6.8-SNAPSHOT</guardians-general.version>
+        <complex-kits.version>0.11.9-SNAPSHOT</complex-kits.version>
+        <varys-java-driver.version>0.8.9-SNAPSHOT</varys-java-driver.version>
+        <qylogin-java-kits.version>0.7.9-SNAPSHOT</qylogin-java-kits.version>
+        <amber-java-kits.version>0.6.9-SNAPSHOT</amber-java-kits.version>
+        <guardians-core.version>0.5.9-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>0.6.9-SNAPSHOT</guardians-general.version>
 
         <lombok.version>1.18.12</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -92,7 +92,7 @@
         <vertx.version>3.9.2</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
-        <logback-miner.version>0.0.2-SNAPSHOT</logback-miner.version>
+        <logback-miner.version>0.0.3-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.13</eql.version>
         <druid.version>1.1.23</druid.version>
         <asm-all.version>5.2</asm-all.version>
