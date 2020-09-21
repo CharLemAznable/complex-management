@@ -81,6 +81,7 @@
         <amber-java-kits.version>0.6.9-SNAPSHOT</amber-java-kits.version>
         <guardians-core.version>0.5.9-SNAPSHOT</guardians-core.version>
         <guardians-general.version>0.6.9-SNAPSHOT</guardians-general.version>
+        <vertx-diamond-config.version>0.0.1-SNAPSHOT</vertx-diamond-config.version>
 
         <lombok.version>1.18.12</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -185,6 +186,11 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>guardians-general</artifactId>
                 <version>${guardians-general.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>vertx-diamond-config</artifactId>
+                <version>${vertx-diamond-config.version}</version>
             </dependency>
 
             <dependency>
