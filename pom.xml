@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-management</artifactId>
-    <version>0.1.11-SNAPSHOT</version>
+    <version>0.1.12-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -75,13 +75,13 @@
         <fastjson.version>1.2.75</fastjson.version>
         <auto-service.version>1.0-rc7</auto-service.version>
         <guice.version>4.2.3</guice.version>
-        <complex-kits.version>0.11.11-SNAPSHOT</complex-kits.version>
-        <varys-java-driver.version>0.8.11-SNAPSHOT</varys-java-driver.version>
-        <qylogin-java-kits.version>0.7.11-SNAPSHOT</qylogin-java-kits.version>
-        <amber-java-kits.version>0.6.11-SNAPSHOT</amber-java-kits.version>
-        <guardians-core.version>0.5.11-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>0.6.11-SNAPSHOT</guardians-general.version>
-        <vertx-diamond-config.version>0.0.3-SNAPSHOT</vertx-diamond-config.version>
+        <complex-kits.version>0.11.12-SNAPSHOT</complex-kits.version>
+        <varys-java-driver.version>0.8.12-SNAPSHOT</varys-java-driver.version>
+        <qylogin-java-kits.version>0.7.12-SNAPSHOT</qylogin-java-kits.version>
+        <amber-java-kits.version>0.6.12-SNAPSHOT</amber-java-kits.version>
+        <guardians-core.version>0.5.12-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>0.6.12-SNAPSHOT</guardians-general.version>
+        <vertx-diamond-config.version>0.0.4-SNAPSHOT</vertx-diamond-config.version>
 
         <lombok.version>1.18.16</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -93,7 +93,7 @@
         <vertx.version>3.9.4</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
-        <logback-miner.version>0.0.5-SNAPSHOT</logback-miner.version>
+        <logback-miner.version>0.0.6-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.13</eql.version>
         <druid.version>1.2.2</druid.version>
         <asm-all.version>5.2</asm-all.version>
