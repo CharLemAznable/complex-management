@@ -70,7 +70,7 @@
         <commons-lang3.version>3.11</commons-lang3.version>
         <cglib-nodep.version>3.3.0</cglib-nodep.version>
         <commons-pool2.version>2.9.0</commons-pool2.version>
-        <guava.version>30.0-jre</guava.version>
+        <guava.version>30.1-jre</guava.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <fastjson.version>1.2.75</fastjson.version>
         <auto-service.version>1.0-rc7</auto-service.version>
@@ -83,32 +83,32 @@
         <guardians-general.version>0.7.1-SNAPSHOT</guardians-general.version>
         <vertx-diamond-config.version>0.1.1-SNAPSHOT</vertx-diamond-config.version>
 
-        <lombok.version>1.18.16</lombok.version>
+        <lombok.version>1.18.18</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <spring.version>5.3.1</spring.version>
+        <spring.version>5.3.3</spring.version>
 
-        <junit-jupiter.version>5.7.0</junit-jupiter.version>
+        <junit-jupiter.version>5.7.1</junit-jupiter.version>
         <awaitility.version>4.0.3</awaitility.version>
         <okhttp.version>3.14.9</okhttp.version>
-        <vertx.version>3.9.4</vertx.version>
+        <vertx.version>3.9.5</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
         <logback-miner.version>0.1.1-SNAPSHOT</logback-miner.version>
-        <eql.version>0.1.13</eql.version>
-        <druid.version>1.2.3</druid.version>
+        <eql.version>0.1.14</eql.version>
+        <druid.version>1.2.5</druid.version>
         <asm-all.version>5.2</asm-all.version>
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.3.0</jedis.version>
+        <jedis.version>3.5.1</jedis.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.4.0</spring-boot.version>
+        <spring-boot.version>2.4.2</spring-boot.version>
         <hazelcast.version>3.12.2</hazelcast.version>
         <ignite.version>2.8.1</ignite.version>
-        <netty-all.version>4.1.54.Final</netty-all.version>
-        <redisson.version>3.14.0</redisson.version>
+        <netty-all.version>4.1.59.Final</netty-all.version>
+        <redisson.version>3.15.0</redisson.version>
 
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
@@ -246,6 +246,18 @@
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-junit5</artifactId>
+                <version>${vertx.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-rx-java</artifactId>
+                <version>${vertx.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-rx-java2</artifactId>
                 <version>${vertx.version}</version>
                 <scope>test</scope>
             </dependency>
