@@ -88,7 +88,6 @@
         <spring.version>5.3.3</spring.version>
 
         <junit-jupiter.version>5.7.1</junit-jupiter.version>
-        <awaitility.version>4.0.3</awaitility.version>
         <okhttp.version>3.14.9</okhttp.version>
         <vertx.version>3.9.5</vertx.version>
 
@@ -223,12 +222,6 @@
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
                 <version>${junit-jupiter.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.awaitility</groupId>
-                <artifactId>awaitility</artifactId>
-                <version>${awaitility.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
