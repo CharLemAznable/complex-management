@@ -67,14 +67,14 @@
     </distributionManagement>
 
     <properties>
-        <commons-lang3.version>3.11</commons-lang3.version>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
         <cglib-nodep.version>3.3.0</cglib-nodep.version>
         <commons-pool2.version>2.9.0</commons-pool2.version>
-        <guava.version>30.1-jre</guava.version>
+        <guava.version>30.1.1-jre</guava.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <fastjson.version>1.2.75</fastjson.version>
         <auto-service.version>1.0-rc7</auto-service.version>
-        <guice.version>4.2.3</guice.version>
+        <guice.version>5.0.1</guice.version>
         <complex-kits.version>0.12.1-SNAPSHOT</complex-kits.version>
         <varys-java-driver.version>0.9.1-SNAPSHOT</varys-java-driver.version>
         <qylogin-java-kits.version>0.8.1-SNAPSHOT</qylogin-java-kits.version>
@@ -85,11 +85,11 @@
 
         <lombok.version>1.18.18</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <spring.version>5.3.3</spring.version>
+        <spring.version>5.3.5</spring.version>
 
         <junit-jupiter.version>5.7.1</junit-jupiter.version>
         <okhttp.version>3.14.9</okhttp.version>
-        <vertx.version>3.9.5</vertx.version>
+        <vertx.version>3.9.6</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
         <logback-miner.version>0.1.1-SNAPSHOT</logback-miner.version>
@@ -99,15 +99,16 @@
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.5.1</jedis.version>
+        <jedis.version>3.5.2</jedis.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.4.2</spring-boot.version>
+        <spring-boot.version>2.4.4</spring-boot.version>
         <hazelcast.version>3.12.2</hazelcast.version>
         <ignite.version>2.8.1</ignite.version>
-        <netty-all.version>4.1.59.Final</netty-all.version>
-        <redisson.version>3.15.0</redisson.version>
+        <netty-all.version>4.1.62.Final</netty-all.version>
+        <redisson.version>3.15.3</redisson.version>
+        <transmittable-thread-local.version>2.12.1</transmittable-thread-local.version>
 
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
@@ -412,6 +413,11 @@
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson</artifactId>
                 <version>${redisson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId>
+                <version>${transmittable-thread-local.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
