@@ -72,8 +72,8 @@
         <commons-pool2.version>2.9.0</commons-pool2.version>
         <guava.version>30.1.1-jre</guava.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
-        <fastjson.version>1.2.75</fastjson.version>
-        <auto-service.version>1.0-rc7</auto-service.version>
+        <fastjson.version>1.2.76</fastjson.version>
+        <auto-service.version>1.0</auto-service.version>
         <guice.version>5.0.1</guice.version>
         <complex-kits.version>0.12.1-SNAPSHOT</complex-kits.version>
         <varys-java-driver.version>0.9.1-SNAPSHOT</varys-java-driver.version>
@@ -83,31 +83,31 @@
         <guardians-general.version>0.7.1-SNAPSHOT</guardians-general.version>
         <vertx-diamond-config.version>0.1.1-SNAPSHOT</vertx-diamond-config.version>
 
-        <lombok.version>1.18.18</lombok.version>
+        <lombok.version>1.18.20</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <spring.version>5.3.5</spring.version>
+        <spring.version>5.3.6</spring.version>
 
         <junit-jupiter.version>5.7.1</junit-jupiter.version>
         <okhttp.version>3.14.9</okhttp.version>
-        <vertx.version>3.9.6</vertx.version>
+        <vertx.version>3.9.7</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
         <logback-miner.version>0.1.1-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.14</eql.version>
-        <druid.version>1.2.5</druid.version>
+        <druid.version>1.2.6</druid.version>
         <asm-all.version>5.2</asm-all.version>
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.5.2</jedis.version>
+        <jedis.version>3.6.0</jedis.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.4.4</spring-boot.version>
+        <spring-boot.version>2.4.5</spring-boot.version>
         <hazelcast.version>3.12.2</hazelcast.version>
         <ignite.version>2.8.1</ignite.version>
-        <netty-all.version>4.1.62.Final</netty-all.version>
-        <redisson.version>3.15.3</redisson.version>
+        <netty-all.version>4.1.63.Final</netty-all.version>
+        <redisson.version>3.15.4</redisson.version>
         <transmittable-thread-local.version>2.12.1</transmittable-thread-local.version>
         <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
 
