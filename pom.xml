@@ -82,6 +82,7 @@
         <guardians-core.version>0.6.2-SNAPSHOT</guardians-core.version>
         <guardians-general.version>0.7.2-SNAPSHOT</guardians-general.version>
         <vertx-diamond-config.version>0.1.2-SNAPSHOT</vertx-diamond-config.version>
+        <gentle-boot.version>0.0.2-SNAPSHOT</gentle-boot.version>
 
         <lombok.version>1.18.20</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -193,6 +194,11 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>vertx-diamond-config</artifactId>
                 <version>${vertx-diamond-config.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>gentle-boot</artifactId>
+                <version>${gentle-boot.version}</version>
             </dependency>
 
             <dependency>
