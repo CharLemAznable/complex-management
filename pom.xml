@@ -69,7 +69,7 @@
     <properties>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <cglib-nodep.version>3.3.0</cglib-nodep.version>
-        <commons-pool2.version>2.9.0</commons-pool2.version>
+        <commons-pool2.version>2.10.0</commons-pool2.version>
         <guava.version>30.1.1-jre</guava.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <fastjson.version>1.2.76</fastjson.version>
@@ -88,11 +88,11 @@
 
         <lombok.version>1.18.20</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <spring.version>5.3.7</spring.version>
+        <spring.version>5.3.8</spring.version>
 
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
         <okhttp.version>3.14.9</okhttp.version>
-        <vertx.version>3.9.7</vertx.version>
+        <vertx.version>3.9.8</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
         <logback-miner-annotations.version>0.1.2-SNAPSHOT</logback-miner-annotations.version>
@@ -103,21 +103,21 @@
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.6.0</jedis.version>
+        <jedis.version>3.6.1</jedis.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.5.0</spring-boot.version>
+        <spring-boot.version>2.5.1</spring-boot.version>
         <hazelcast.version>3.12.2</hazelcast.version>
         <ignite.version>2.8.1</ignite.version>
-        <netty-all.version>4.1.60.Final</netty-all.version><!-- compatible with vertx 3.9.7 -->
-        <redisson.version>3.15.5</redisson.version>
+        <netty-all.version>4.1.65.Final</netty-all.version><!-- compatible with vertx 3.9.8 -->
+        <redisson.version>3.15.6</redisson.version>
         <transmittable-thread-local.version>2.12.1</transmittable-thread-local.version>
         <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
 
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
     </properties>
 
