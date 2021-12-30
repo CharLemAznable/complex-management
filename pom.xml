@@ -72,7 +72,7 @@
         <commons-pool2.version>2.11.1</commons-pool2.version>
         <guava.version>31.0.1-jre</guava.version>
         <slf4j-api.version>1.7.32</slf4j-api.version>
-        <fastjson.version>1.2.78</fastjson.version>
+        <fastjson.version>1.2.79</fastjson.version>
         <auto-service.version>1.0.1</auto-service.version>
         <guice.version>5.0.1</guice.version>
         <complex-kits.version>0.12.4-SNAPSHOT</complex-kits.version>
@@ -88,13 +88,13 @@
 
         <lombok.version>1.18.22</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <spring.version>5.3.12</spring.version>
+        <spring.version>5.3.14</spring.version>
 
-        <junit-jupiter.version>5.8.1</junit-jupiter.version>
-        <okhttp.version>3.14.9</okhttp.version><!-- from spring-boot 2.5.6 -->
-        <vertx.version>4.2.1</vertx.version>
+        <junit-jupiter.version>5.8.2</junit-jupiter.version>
+        <okhttp.version>3.14.9</okhttp.version><!-- from spring-boot 2.6.2 -->
+        <vertx.version>4.2.3</vertx.version>
 
-        <logback-classic.version>1.2.6</logback-classic.version>
+        <logback.version>1.2.10</logback.version>
         <logback-miner-annotations.version>0.1.4-SNAPSHOT</logback-miner-annotations.version>
         <logback-miner.version>0.1.4-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.14</eql.version>
@@ -103,14 +103,14 @@
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>3.7.0</jedis.version>
+        <jedis.version>4.0.0</jedis.version>
         <westid.version>0.0.3</westid.version>
-        <h2.version>1.4.200</h2.version>
+        <h2.version>2.0.204</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.5.6</spring-boot.version>
-        <netty-all.version>4.1.69.Final</netty-all.version><!-- compatible with vertx 4.2.1 -->
-        <redisson.version>3.16.4</redisson.version>
-        <transmittable-thread-local.version>2.12.2</transmittable-thread-local.version>
+        <spring-boot.version>2.6.2</spring-boot.version>
+        <netty-all.version>4.1.72.Final</netty-all.version><!-- compatible with vertx 4.2.3 -->
+        <redisson.version>3.16.7</redisson.version>
+        <transmittable-thread-local.version>2.12.3</transmittable-thread-local.version>
         <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
         <embedded-mysql-extension.version>0.0.4-SNAPSHOT</embedded-mysql-extension.version>
 
@@ -277,8 +277,18 @@
 
             <dependency>
                 <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-access</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>${logback-classic.version}</version>
+                <version>${logback.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
