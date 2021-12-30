@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-management</artifactId>
-    <version>0.2.4-SNAPSHOT</version>
+    <version>0.2.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -75,16 +75,16 @@
         <fastjson.version>1.2.79</fastjson.version>
         <auto-service.version>1.0.1</auto-service.version>
         <guice.version>5.0.1</guice.version>
-        <complex-kits.version>0.12.4-SNAPSHOT</complex-kits.version>
-        <varys-java-driver.version>0.9.4-SNAPSHOT</varys-java-driver.version>
-        <qylogin-java-kits.version>0.8.4-SNAPSHOT</qylogin-java-kits.version>
-        <amber-java-kits.version>0.7.4-SNAPSHOT</amber-java-kits.version>
-        <guardians-core.version>0.6.4-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>0.7.4-SNAPSHOT</guardians-general.version>
-        <vertx-diamond-config.version>0.1.4-SNAPSHOT</vertx-diamond-config.version>
-        <gentle-factory-annotations.version>0.0.4-SNAPSHOT</gentle-factory-annotations.version>
-        <gentle-factory.version>0.0.4-SNAPSHOT</gentle-factory.version>
-        <gentle-boot.version>0.0.4-SNAPSHOT</gentle-boot.version>
+        <complex-kits.version>0.12.5-SNAPSHOT</complex-kits.version>
+        <varys-java-driver.version>0.9.5-SNAPSHOT</varys-java-driver.version>
+        <qylogin-java-kits.version>0.8.5-SNAPSHOT</qylogin-java-kits.version>
+        <amber-java-kits.version>0.7.5-SNAPSHOT</amber-java-kits.version>
+        <guardians-core.version>0.6.5-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>0.7.5-SNAPSHOT</guardians-general.version>
+        <vertx-diamond-config.version>0.1.5-SNAPSHOT</vertx-diamond-config.version>
+        <gentle-factory-annotations.version>0.0.5-SNAPSHOT</gentle-factory-annotations.version>
+        <gentle-factory.version>0.0.5-SNAPSHOT</gentle-factory.version>
+        <gentle-boot.version>0.0.5-SNAPSHOT</gentle-boot.version>
 
         <lombok.version>1.18.22</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -95,8 +95,8 @@
         <vertx.version>4.2.3</vertx.version>
 
         <logback.version>1.2.10</logback.version>
-        <logback-miner-annotations.version>0.1.4-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner.version>0.1.4-SNAPSHOT</logback-miner.version>
+        <logback-miner-annotations.version>0.1.5-SNAPSHOT</logback-miner-annotations.version>
+        <logback-miner.version>0.1.5-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.14</eql.version>
         <druid.version>1.2.8</druid.version>
         <asm-all.version>5.2</asm-all.version>
@@ -112,7 +112,7 @@
         <redisson.version>3.16.7</redisson.version>
         <transmittable-thread-local.version>2.12.3</transmittable-thread-local.version>
         <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
-        <embedded-mysql-extension.version>0.0.4-SNAPSHOT</embedded-mysql-extension.version>
+        <embedded-mysql-extension.version>0.0.5-SNAPSHOT</embedded-mysql-extension.version>
 
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
