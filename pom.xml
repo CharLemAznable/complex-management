@@ -103,7 +103,7 @@
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
         <quartz.version>2.3.2</quartz.version>
-        <jedis.version>4.0.0</jedis.version>
+        <jedis.version>4.0.1</jedis.version>
         <westid.version>0.0.3</westid.version>
         <h2.version>2.0.204</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
