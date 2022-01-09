@@ -110,7 +110,7 @@
         <spring-boot.version>2.6.2</spring-boot.version>
         <netty-all.version>4.1.72.Final</netty-all.version><!-- compatible with vertx 4.2.3 -->
         <redisson.version>3.16.7</redisson.version>
-        <transmittable-thread-local.version>2.12.3</transmittable-thread-local.version>
+        <transmittable-thread-local.version>2.12.4</transmittable-thread-local.version>
         <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
         <embedded-mysql-extension.version>0.0.5-SNAPSHOT</embedded-mysql-extension.version>
 
