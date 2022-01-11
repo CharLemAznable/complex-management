@@ -84,7 +84,6 @@
         <vertx-diamond-config.version>0.1.5-SNAPSHOT</vertx-diamond-config.version>
         <gentle-factory-annotations.version>0.0.5-SNAPSHOT</gentle-factory-annotations.version>
         <gentle-factory.version>0.0.5-SNAPSHOT</gentle-factory.version>
-        <gentle-boot.version>0.0.5-SNAPSHOT</gentle-boot.version>
 
         <lombok.version>1.18.22</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -93,29 +92,6 @@
         <junit-jupiter.version>5.8.2</junit-jupiter.version>
         <okhttp.version>3.14.9</okhttp.version><!-- from spring-boot 2.6.2 -->
         <vertx.version>4.2.3</vertx.version>
-
-        <logback.version>1.2.10</logback.version>
-        <logback-miner-annotations.version>0.1.5-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner.version>0.1.5-SNAPSHOT</logback-miner.version>
-        <joda-time.version>2.10.13</joda-time.version>
-        <eql.version>0.1.14</eql.version>
-        <druid.version>1.2.8</druid.version>
-        <asm-all.version>5.2</asm-all.version>
-        <asmvalidator.version>0.0.16</asmvalidator.version>
-        <westcache.version>0.0.35</westcache.version>
-        <quartz.version>2.3.2</quartz.version>
-        <jedis.version>4.0.1</jedis.version>
-        <westid.version>0.0.3</westid.version>
-        <h2.version>2.0.206</h2.version>
-        <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.6.2</spring-boot.version>
-        <netty-all.version>4.1.72.Final</netty-all.version><!-- compatible with vertx 4.2.3 -->
-        <redisson.version>3.16.7</redisson.version>
-        <transmittable-thread-local.version>2.12.4</transmittable-thread-local.version>
-        <embedded-redis.version>0.6</embedded-redis.version>
-        <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
-        <embedded-mysql-extension.version>0.0.5-SNAPSHOT</embedded-mysql-extension.version>
-        <jaxb-api.version>2.3.1</jaxb-api.version>
 
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
@@ -210,11 +186,6 @@
                 <artifactId>gentle-factory</artifactId>
                 <version>${gentle-factory.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>gentle-boot</artifactId>
-                <version>${gentle-boot.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -254,6 +225,34 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-tomcat</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-classic</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-undertow</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>mockwebserver</artifactId>
                 <version>${okhttp.version}</version>
@@ -279,168 +278,11 @@
             </dependency>
 
             <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-core</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-access</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner-annotations</artifactId>
-                <version>${logback-miner-annotations.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner</artifactId>
-                <version>${logback-miner.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>joda-time</groupId>
-                <artifactId>joda-time</artifactId>
-                <version>${joda-time.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.bingoohuang</groupId>
-                <artifactId>eql</artifactId>
-                <version>${eql.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>${druid.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.ow2.asm</groupId>
-                <artifactId>asm-all</artifactId>
-                <version>${asm-all.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.bingoohuang</groupId>
-                <artifactId>asmvalidator</artifactId>
-                <version>${asmvalidator.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.bingoohuang</groupId>
-                <artifactId>westcache</artifactId>
-                <version>${westcache.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.quartz-scheduler</groupId>
-                <artifactId>quartz</artifactId>
-                <version>${quartz.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>redis.clients</groupId>
-                <artifactId>jedis</artifactId>
-                <version>${jedis.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.bingoohuang</groupId>
-                <artifactId>westid</artifactId>
-                <version>${westid.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2</artifactId>
-                <version>${h2.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.bingoohuang</groupId>
-                <artifactId>delayqueue</artifactId>
-                <version>${delayqueue.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-context-support</artifactId>
-                <version>${spring.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-autoconfigure</artifactId>
-                <version>${spring-boot.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-core</artifactId>
-                <version>${vertx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-web</artifactId>
-                <version>${vertx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-hazelcast</artifactId>
-                <version>${vertx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-ignite</artifactId>
-                <version>${vertx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-zookeeper</artifactId>
-                <version>${vertx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-all</artifactId>
-                <version>${netty-all.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.redisson</groupId>
-                <artifactId>redisson</artifactId>
-                <version>${redisson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>transmittable-thread-local</artifactId>
-                <version>${transmittable-thread-local.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.xml.bind</groupId>
-                <artifactId>jaxb-api</artifactId>
-                <version>${jaxb-api.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.kstyrc</groupId>
-                <artifactId>embedded-redis</artifactId>
-                <version>${embedded-redis.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.wix</groupId>
-                <artifactId>wix-embedded-mysql</artifactId>
-                <version>${wix-embedded-mysql.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>embedded-mysql-extension</artifactId>
-                <version>${embedded-mysql-extension.version}</version>
-                <scope>test</scope>
+                <artifactId>complex-starter-parent</artifactId>
+                <version>0.5.5-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
