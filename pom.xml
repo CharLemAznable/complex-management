@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>complex-dependencies</artifactId>
-        <version>0.5.5-SNAPSHOT</version>
+        <version>0.5.6-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-management</artifactId>
-    <version>0.2.5-SNAPSHOT</version>
+    <version>0.2.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -25,11 +25,11 @@
     </scm>
 
     <properties>
-        <varys-java-driver.version>0.9.5-SNAPSHOT</varys-java-driver.version>
-        <qylogin-java-kits.version>0.8.5-SNAPSHOT</qylogin-java-kits.version>
-        <amber-java-kits.version>0.7.5-SNAPSHOT</amber-java-kits.version>
-        <guardians-core.version>0.6.5-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>0.7.5-SNAPSHOT</guardians-general.version>
+        <varys-java-driver.version>0.9.6-SNAPSHOT</varys-java-driver.version>
+        <qylogin-java-kits.version>0.8.6-SNAPSHOT</qylogin-java-kits.version>
+        <amber-java-kits.version>0.7.6-SNAPSHOT</amber-java-kits.version>
+        <guardians-core.version>0.6.6-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>0.7.6-SNAPSHOT</guardians-general.version>
     </properties>
 
     <dependencyManagement>
