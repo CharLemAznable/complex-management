@@ -24,7 +24,28 @@
         <url>https://github.com/CharLemAznable/complex-management</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <properties>
+        <gentle-boot.version>0.0.6-SNAPSHOT</gentle-boot.version>
         <varys-java-driver.version>0.9.6-SNAPSHOT</varys-java-driver.version>
         <qylogin-java-kits.version>0.8.6-SNAPSHOT</qylogin-java-kits.version>
         <amber-java-kits.version>0.7.6-SNAPSHOT</amber-java-kits.version>
@@ -34,6 +55,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>gentle-boot</artifactId>
+                <version>${gentle-boot.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>varys-java-driver</artifactId>
