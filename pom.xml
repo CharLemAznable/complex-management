@@ -45,35 +45,25 @@
     </repositories>
 
     <properties>
-        <gentle-boot.version>0.0.6-SNAPSHOT</gentle-boot.version>
-        <varys-java-driver.version>0.9.6-SNAPSHOT</varys-java-driver.version>
-        <qylogin-java-kits.version>0.8.6-SNAPSHOT</qylogin-java-kits.version>
         <amber-java-kits.version>0.7.6-SNAPSHOT</amber-java-kits.version>
+        <gentle-boot.version>0.0.6-SNAPSHOT</gentle-boot.version>
         <guardians-core.version>0.6.6-SNAPSHOT</guardians-core.version>
         <guardians-general.version>0.7.6-SNAPSHOT</guardians-general.version>
+        <qylogin-java-kits.version>0.8.6-SNAPSHOT</qylogin-java-kits.version>
+        <varys-java-driver.version>0.9.6-SNAPSHOT</varys-java-driver.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>gentle-boot</artifactId>
-                <version>${gentle-boot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>varys-java-driver</artifactId>
-                <version>${varys-java-driver.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>qylogin-java-kits</artifactId>
-                <version>${qylogin-java-kits.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>amber-java-kits</artifactId>
                 <version>${amber-java-kits.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>gentle-boot</artifactId>
+                <version>${gentle-boot.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
@@ -84,6 +74,16 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>guardians-general</artifactId>
                 <version>${guardians-general.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>qylogin-java-kits</artifactId>
+                <version>${qylogin-java-kits.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>varys-java-driver</artifactId>
+                <version>${varys-java-driver.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
