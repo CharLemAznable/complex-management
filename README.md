@@ -13,7 +13,7 @@
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>complex-management</artifactId>
-            <version>0.2.6</version>
+            <version>0.2.7</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>complex-management</artifactId>
-            <version>0.2.7-SNAPSHOT</version>
+            <version>0.2.8-SNAPSHOT</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
