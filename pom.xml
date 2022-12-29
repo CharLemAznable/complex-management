@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>complex-dependencies</artifactId>
-        <version>2023.0.0-SNAPSHOT</version>
+        <version>2022.0.3-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-management</artifactId>
-    <version>2023.0.0-SNAPSHOT</version>
+    <version>2022.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -45,13 +45,13 @@
     </repositories>
 
     <properties>
-        <amber-java-kits.version>2023.0.0-SNAPSHOT</amber-java-kits.version>
-        <gentle-boot.version>2023.0.0-SNAPSHOT</gentle-boot.version>
-        <grpc-astray.version>2023.0.0-SNAPSHOT</grpc-astray.version>
-        <guardians-core.version>2023.0.0-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>2023.0.0-SNAPSHOT</guardians-general.version>
-        <qylogin-java-kits.version>2023.0.0-SNAPSHOT</qylogin-java-kits.version>
-        <varys-java-driver.version>2023.0.0-SNAPSHOT</varys-java-driver.version>
+        <amber-java-kits.version>2022.0.3-SNAPSHOT</amber-java-kits.version>
+        <gentle-boot.version>2022.0.3-SNAPSHOT</gentle-boot.version>
+        <grpc-astray.version>2022.0.3-SNAPSHOT</grpc-astray.version>
+        <guardians-core.version>2022.0.3-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>2022.0.3-SNAPSHOT</guardians-general.version>
+        <qylogin-java-kits.version>2022.0.3-SNAPSHOT</qylogin-java-kits.version>
+        <varys-java-driver.version>2022.0.3-SNAPSHOT</varys-java-driver.version>
     </properties>
 
     <dependencyManagement>
