@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>complex-dependencies</artifactId>
-        <version>2023.0.5-SNAPSHOT</version>
+        <version>2023.1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-management</artifactId>
-    <version>2023.0.5-SNAPSHOT</version>
+    <version>2023.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -45,22 +45,14 @@
     </repositories>
 
     <properties>
-        <amber-java-kits.version>2023.0.5-SNAPSHOT</amber-java-kits.version>
-        <gentle-boot.version>2023.0.5-SNAPSHOT</gentle-boot.version>
-        <grpc-astray.version>2023.0.5-SNAPSHOT</grpc-astray.version>
-        <guardians-core.version>2023.0.5-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>2023.0.5-SNAPSHOT</guardians-general.version>
-        <qylogin-java-kits.version>2023.0.5-SNAPSHOT</qylogin-java-kits.version>
-        <varys-java-driver.version>2023.0.5-SNAPSHOT</varys-java-driver.version>
+        <gentle-boot.version>2023.1.0-SNAPSHOT</gentle-boot.version>
+        <grpc-astray.version>2023.1.0-SNAPSHOT</grpc-astray.version>
+        <guardians-core.version>2023.1.0-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>2023.1.0-SNAPSHOT</guardians-general.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>amber-java-kits</artifactId>
-                <version>${amber-java-kits.version}</version>
-            </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>gentle-boot</artifactId>
@@ -80,16 +72,6 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>guardians-general</artifactId>
                 <version>${guardians-general.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>qylogin-java-kits</artifactId>
-                <version>${qylogin-java-kits.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>varys-java-driver</artifactId>
-                <version>${varys-java-driver.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
