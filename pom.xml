@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>complex-dependencies</artifactId>
-        <version>2023.1.0-SNAPSHOT</version>
+        <version>2023.1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-management</artifactId>
-    <version>2023.1.0-SNAPSHOT</version>
+    <version>2023.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Management</name>
@@ -45,10 +45,10 @@
     </repositories>
 
     <properties>
-        <gentle-boot.version>2023.1.0-SNAPSHOT</gentle-boot.version>
-        <grpc-astray.version>2023.1.0-SNAPSHOT</grpc-astray.version>
-        <guardians-core.version>2023.1.0-SNAPSHOT</guardians-core.version>
-        <guardians-general.version>2023.1.0-SNAPSHOT</guardians-general.version>
+        <gentle-boot.version>2023.1.1-SNAPSHOT</gentle-boot.version>
+        <grpc-astray.version>2023.1.1-SNAPSHOT</grpc-astray.version>
+        <guardians-core.version>2023.1.1-SNAPSHOT</guardians-core.version>
+        <guardians-general.version>2023.1.1-SNAPSHOT</guardians-general.version>
     </properties>
 
     <dependencyManagement>
